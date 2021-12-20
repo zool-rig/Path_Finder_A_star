@@ -2,8 +2,7 @@
 **Simple ui to design mazes an watch a path finding algorythm (A\*) find its way.**
 
 # Using :
-Python 3.8
-PyQt5
+Python 3.8 and PyQt5
 
 # Overview :
 ![image](https://user-images.githubusercontent.com/65851816/146785491-287b4f69-fb32-4e91-be91-45ac3748cfbf.png)
