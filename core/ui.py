@@ -86,9 +86,10 @@ class PathFinderUI(QDialog):
     def clear(self):
         self.grid.reset()
         self.wall_mode_rdo.setChecked(True)
-        self.movie.stop()
-        self.movie.setHidden(True)
         self.grid.setHidden(False)
+        if self.movie.movie:
+            self.movie.stop()
+        self.movie.setHidden(True)
 
     def run(self):
         if not self.grid.start or not self.grid.end:
